@@ -10,8 +10,8 @@ npm i qiniu-token --save
 
 ## 🔧 Configuration
 
-```typescript
-const options = {
+```
+{
   bucket: string // 空间名
   accessKey: string // access key
   secretKey: string // secret key
