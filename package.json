@@ -1,19 +1,32 @@
 {
   "name": "qiniu-token",
-  "version": "1.0.1",
-  "description": "无需服务器，即可本地生成七牛 upload token",
+  "version": "1.0.3",
+  "description": "支持ts，无需请求服务器，即可本地生成七牛 upload token",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:simmzl/qiniu-token.git"
+    "url": "https://github.com/simmzl/qiniu-token"
   },
   "scripts": {
     "test": "node ./test/index.js",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "author": "simmzl",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simmzl/qiniu-token/issues"
+  },
+  "keywords": [
+    "qiniu",
+    "七牛",
+    "typescript",
+    "qiniu-token",
+    "qiniu-js",
+    "qiniu upload",
+    "qiniu upload token"
+  ],
+  "homepage": "https://github.com/simmzl/qiniu-token",
   "dependencies": {
     "crypto-js": "^4.0.0"
   },
