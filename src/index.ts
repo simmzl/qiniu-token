@@ -70,7 +70,7 @@ export default class QUploadToken {
   }
 
   private safe64(base64: string) {
-    return base64.replace(/\+｜\//g, "-")
+    return base64.replace(/[\+]|[\/]/g, "-")
   }
 
   getToken() {
