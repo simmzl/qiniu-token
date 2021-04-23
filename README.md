@@ -8,6 +8,17 @@
 npm i qiniu-token --save
 ```
 
+## 🔧 Configuration
+
+```typescript
+const options = {
+  bucket: string // 空间名
+  accessKey: string // access key
+  secretKey: string // secret key
+  expire?: number // token过期时间，非必选，默认两小时
+}
+```
+
 ## 🔨 Usage
 
 ```typescript
