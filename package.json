@@ -1,6 +1,6 @@
 {
   "name": "qiniu-token",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "支持ts，无需请求服务器，即可本地生成七牛 upload token",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
